@@ -9,9 +9,11 @@ int main( )
 		cout << "v1 == v2" << endl;
 	else
 		cout << "v1 != v2" << endl;
-	Vector3 v3 =  v1 / 3;
+	
+
+	//v1.normalize( );
+	Vector3 v3 = v1.crossPruduct( v1,v2 );
 	v3.print( );
-	v1.print( );
 
 
 	
